@@ -160,6 +160,18 @@
     video.style.transform=reduced || small ? '' : `translateY(${clamp(y*.08,0,80)}px)`;
   }
   function schedule() { if(!queued) { queued=true; requestAnimationFrame(render); } }
+  // Mobile stacking: pin each chapter where its bottom meets the viewport bottom (or under the header if it fits).
+  const stackQuery = matchMedia('(max-width: 760px)');
+  function setStick() {
+    const header = parseFloat(getComputedStyle(root).getPropertyValue('--header')) || 72;
+    for (const chapter of chapters) {
+      if (stackQuery.matches) chapter.style.setProperty('--stick', `${Math.min(header, innerHeight - chapter.offsetHeight)}px`);
+      else chapter.style.removeProperty('--stick');
+    }
+  }
+  new ResizeObserver(setStick).observe(document.body);
+  addEventListener('resize', setStick, {passive:true});
+  stackQuery.addEventListener('change', setStick);
   addEventListener('scroll',schedule,{passive:true});
   addEventListener('resize',schedule,{passive:true});
   applyMotion();
