@@ -1,0 +1,129 @@
+{
+  "landing.mp4": {
+    "origin": "User supplied: TCG - Capes Landing Video.mp4",
+    "modified": false
+  },
+  "landing-poster.jpg": {
+    "origin": "Frame extracted at 6 seconds from user-supplied landing video",
+    "generated": false
+  },
+  "mark-primary.png": {
+    "origin": "Approved image embedded in user-supplied TCG_Brand_OS_v2.html",
+    "modified": false
+  },
+  "mark-reverse.png": {
+    "origin": "Approved image embedded in user-supplied TCG_Brand_OS_v2.html",
+    "modified": false
+  },
+  "concrete-office.png": {
+    "origin": "User supplied: Concrete Office with Logo.png",
+    "modified": false,
+    "use": "Section 03 full-bleed background, with CSS/PDF dark overlay"
+  },
+  "meeting-scene.png": {
+    "origin": "User supplied: Meeting Scene 4x5.png",
+    "modified": false,
+    "use": "Section 02 portrait, original 4:5 aspect ratio"
+  },
+  "gold-grillz.png": {
+    "origin": "User supplied: Gold Grillz Lip Fixed.png",
+    "modified": false,
+    "use": "Section 04 full-bleed background with dark readability overlay"
+  },
+  "landscape.mp4": {
+    "origin": "User supplied YTDown.com_YouTube_Media_I1_uU9eIZRo_Stevie-Wonder-Higher-Ground-1974_002_360p.mp4",
+    "modified": false,
+    "use": "Section 05 full-bleed muted background film"
+  },
+  "landscape-poster.jpg": {
+    "origin": "Frame at 100 seconds from user-supplied landscape video",
+    "generated": false,
+    "use": "Reduced-motion fallback and print edition"
+  },
+  "tr-iconography.png": {
+    "origin": "User supplied: TR_Iconography.png",
+    "modified": false,
+    "use": "Section 06 full-bleed background with dark readability overlay in HTML and PDF"
+  },
+  "audience.mp4": {
+    "origin": "User supplied: TCG - Audience Video.mp4",
+    "modified": false,
+    "use": "Section 07 full-bleed muted looping background"
+  },
+  "audience-poster.jpg": {
+    "origin": "Frame extracted at 3 seconds from supplied audience video",
+    "generated": false,
+    "use": "Static fallback and print PDF"
+  },
+  "cassette-tapes.png": {
+    "origin": "User supplied: Cassette Tapes 4x5.png",
+    "modified": false,
+    "use": "Section 08 creative portrait, full 4:5 image, HTML and PDF"
+  },
+  "hypebeast-article.png": {
+    "origin": "User supplied: Hypebeast Article 4x5.png",
+    "modified": false,
+    "use": "Section 09 portrait; complete 4:5 article image in HTML and PDF"
+  },
+  "pizza-place-crowd.png": {
+    "origin": "User supplied: Pizza Place Crowd Landscape.png",
+    "modified": false,
+    "use": "Section 10 full-bleed background with dark readability overlay, HTML and PDF"
+  },
+  "logos/true-religion.svg": {
+    "brand": "True Religion",
+    "origin": "https://cdn.worldvectorlogo.com/logos/truereligion.svg",
+    "use": "Section 11 logo grid",
+    "modified": false,
+    "note": "Original downloaded asset"
+  },
+  "logos/moet-hennessy.png": {
+    "brand": "Moët Hennessy",
+    "origin": "https://images.prismic.io/lvmh-com/ZoaZPx5LeNNTwywC_Moet_Hennessy_Logo.jpg?fm=png",
+    "use": "Section 11 logo grid",
+    "modified": false,
+    "note": "Original downloaded asset"
+  },
+  "logos/suntory.svg": {
+    "brand": "Suntory",
+    "origin": "https://cdn.worldvectorlogo.com/logos/suntory-logo.svg",
+    "use": "Section 11 logo grid",
+    "modified": false,
+    "note": "Original downloaded asset"
+  },
+  "logos/rumpus-wordmark.png": {
+    "brand": "The Rumpus",
+    "origin": "https://therumpus.net/wp-content/uploads/2025/12/home-logo-v2.jpg",
+    "use": "Section 11 logo grid",
+    "modified": true,
+    "note": "Converted official JPG to PNG"
+  },
+  "logos/silver-air.png": {
+    "brand": "Silver Air Private Jets",
+    "origin": "https://app.pinpointhq.com/rails/active_storage/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOGNGSlE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--4af3607b414ff0764a1f858a57211870b2a77f76/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCam9MY21WemFYcGxTU0lQTkRRd0xqQjROakF1TUFZNkJrVlUiLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--a8aaf45d691ceff55bb4ecfcc9bec21f806890fa/logo.png",
+    "use": "Section 11 logo grid",
+    "modified": false,
+    "note": "Original downloaded asset"
+  },
+  "logos/ugg.svg": {
+    "brand": "UGG",
+    "origin": "https://i.logos-download.com/1832/426-5d5a6261106ad59259cde1d39bfc991a.svg/UGG_Logo.svg?dl",
+    "use": "Section 11 logo grid",
+    "modified": false,
+    "note": "Original downloaded asset"
+  },
+  "logos/evian.png": {
+    "brand": "evian",
+    "origin": "https://www.evian.com/en_us/wp-content/uploads/2020/04/evian-logo.png",
+    "use": "Section 11 logo grid",
+    "modified": false,
+    "note": "Original downloaded asset"
+  },
+  "logos/reebok.png": {
+    "brand": "Reebok",
+    "origin": "https://www.reebok.com/cdn/shop/files/Reebok_Logo_2x_ad023ce8-db1d-434d-b9d6-8ceefe5c32c9.png",
+    "use": "Section 11 logo grid",
+    "modified": false,
+    "note": "Original downloaded asset"
+  }
+}

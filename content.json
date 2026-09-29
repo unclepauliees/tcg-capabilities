@@ -1,0 +1,287 @@
+{
+  "edition": "SEPTEMBER 2026",
+  "email": "YourAgency@theconcretegrp.com",
+  "sections": [
+    {
+      "id": "start",
+      "label": "The foundation",
+      "title": "We don’t chase noise.",
+      "light": "We build brands that last.",
+      "intro": "Senior-led PR & brand advisory. Built to hold weight.",
+      "items": []
+    },
+    {
+      "id": "concrete",
+      "label": "We are Concrete",
+      "title": "Senior minds.\nFully invested.",
+      "intro": "The Concrete Group is a senior-led global PR and brand advisory agency. We work as an extension of your executive team, connecting business strategy with the conversations that shape credibility and culture.",
+      "items": [
+        [
+          "Our remit",
+          "Communications strategy, social media, crisis communications, talent, influencer and brand partnerships."
+        ]
+      ]
+    },
+    {
+      "id": "model",
+      "label": "Built different",
+      "title": "The right expertise.\nRight beside you.",
+      "intro": "A model built around your business, with senior leadership where it matters most.",
+      "items": [
+        [
+          "Embedded leadership",
+          "We become an extension of your leadership team, with hands-on counsel close to the decisions that matter."
+        ],
+        [
+          "Expertise on demand",
+          "Senior talent is selected around your industry, your brief and the challenge in front of you."
+        ],
+        [
+          "A team built to fit",
+          "Specialized expertise comes together around the needs of each engagement."
+        ],
+        [
+          "One coordinated effort",
+          "We work across your agency partners and integrated agency team to maintain a unified strategic presence."
+        ]
+      ]
+    },
+    {
+      "id": "worlds",
+      "label": "Areas of expertise",
+      "title": "Fluent in the worlds\nthat move culture.",
+      "intro": "Deep experience across industries. A connected view of what is happening now and what moves markets.",
+      "items": [
+        [
+          "Hospitality",
+          ""
+        ],
+        [
+          "Entertainment",
+          ""
+        ],
+        [
+          "Technology",
+          ""
+        ],
+        [
+          "Mobility",
+          ""
+        ],
+        [
+          "Beverage",
+          ""
+        ],
+        [
+          "Fashion",
+          ""
+        ],
+        [
+          "Luxury",
+          ""
+        ],
+        [
+          "Culture",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": "attention",
+      "label": "The landscape",
+      "title": "Attention changes.",
+      "light": "Credibility must last.",
+      "intro": "A fragmented brand story is easy to miss. We unite communications around a lasting perception of who you are and why you matter.",
+      "items": [
+        [
+          "Earn trust",
+          "Give people a credible reason to pay attention."
+        ],
+        [
+          "Connect the story",
+          "Build continuity across media, platforms and communities."
+        ],
+        [
+          "Make it matter",
+          "Find a meaningful role in the conversations your audience values."
+        ]
+      ]
+    },
+    {
+      "id": "pr4",
+      "label": "PR 4.0",
+      "title": "Give your brand\nthe authority to lead.",
+      "intro": "How we think about PR must evolve with the way news and information travel. We connect publicity, creators, social and experiences with the cultural spaces that shape the mainstream.",
+      "items": [
+        [
+          "Publicity",
+          "Resonance"
+        ],
+        [
+          "Creators",
+          "Influence"
+        ],
+        [
+          "Social",
+          "Conversation"
+        ],
+        [
+          "Experiential",
+          "Impact"
+        ],
+        [
+          "Movement",
+          "Scale & reach"
+        ]
+      ]
+    },
+    {
+      "id": "audience",
+      "label": "Audience first",
+      "title": "Start with people.\nThen choose the channel.",
+      "intro": "Audience behaviour guides the communications plan. Where people discover, who they trust and how they participate matter more than a channel checklist.",
+      "items": [
+        [
+          "Discovery",
+          "Where does the audience encounter new ideas?",
+          "Find the right entry point."
+        ],
+        [
+          "Trust",
+          "Whose perspective carries weight?",
+          "Build around credible voices."
+        ],
+        [
+          "Participation",
+          "What makes people respond, share or take part?",
+          "Give the story a role in their lives."
+        ]
+      ]
+    },
+    {
+      "id": "moments",
+      "label": "When we show up",
+      "title": "At the moments\nthat move you forward.",
+      "intro": "From a new beginning to a critical inflection point, we help your story meet the moment.",
+      "items": [
+        [
+          "Market entry & category creation",
+          "Introduce something new and help the market understand why it matters."
+        ],
+        [
+          "Product launches & platform debuts",
+          "Give innovation a clear place in your brand’s next chapter."
+        ],
+        [
+          "High-profile events",
+          "Bring precision and presence when the world is watching."
+        ],
+        [
+          "Rebrands, pivots & narrative resets",
+          "Make the strategic rationale behind your evolution clear."
+        ],
+        [
+          "Executive visibility",
+          "Build founder and C-suite presence through a credible point of view."
+        ],
+        [
+          "Crisis communications",
+          "Stabilize the situation, protect your community and ensure your truth is heard."
+        ]
+      ]
+    },
+    {
+      "id": "press",
+      "label": "Always-on publicity",
+      "title": "A press engine\nthat keeps moving.",
+      "intro": "A sustained approach to finding the stories your brand is equipped to tell.",
+      "items": [
+        [
+          "Read the moment",
+          "Monitor media and culture for relevant conversations and fresh angles."
+        ],
+        [
+          "Uncover the story",
+          "Find underused brand assets and legacy with the potential to become meaningful story hooks."
+        ],
+        [
+          "Build deeper impact",
+          "Connect the opportunity to a credible contribution your brand can make."
+        ]
+      ]
+    },
+    {
+      "id": "social",
+      "label": "Social amplification",
+      "title": "From attention\nto participation.",
+      "intro": "Bring a consistent point of view to the feed, the creator relationship and the community around your brand.",
+      "items": [
+        [
+          "Influencer partnerships",
+          "Vet and manage talent whose values align with your brand."
+        ],
+        [
+          "Social strategy",
+          "Define how your brand shows up across platforms and communities."
+        ],
+        [
+          "Trend interception",
+          "Identify timely opportunities to enter and lead relevant conversations."
+        ],
+        [
+          "Community building",
+          "Create engagement frameworks that turn passive followers into active advocates."
+        ]
+      ]
+    },
+    {
+      "id": "portfolio",
+      "label": "Our experience",
+      "title": "Across brands.\nAcross culture.",
+      "intro": "Experience across brands, partnerships and cultural moments.",
+      "items": [],
+      "draft": "",
+      "logos": [
+        {
+          "name": "True Religion",
+          "file": "true-religion.svg"
+        },
+        {
+          "name": "Moët Hennessy",
+          "file": "moet-hennessy.png"
+        },
+        {
+          "name": "Suntory",
+          "file": "suntory.svg"
+        },
+        {
+          "name": "The Rumpus",
+          "file": "rumpus-wordmark.png"
+        },
+        {
+          "name": "Silver Air Private Jets",
+          "file": "silver-air.png"
+        },
+        {
+          "name": "UGG",
+          "file": "ugg.svg"
+        },
+        {
+          "name": "evian",
+          "file": "evian.png"
+        },
+        {
+          "name": "Reebok",
+          "file": "reebok.png"
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "label": "The next chapter",
+      "title": "Build what lasts.",
+      "intro": "Tell us what is next for your business. Let’s build the credibility and cultural relevance to support it.",
+      "items": []
+    }
+  ]
+}
