@@ -9,7 +9,7 @@ Self-guided capabilities presentation for external review.
 - 12 responsive chapters with section navigation
 - Local images, video backgrounds, and fonts
 - Reduced-motion support and video playback controls
-- Downloadable print PDF: `TCG-Capabilities-Review.pdf`
+- Downloadable print PDF: `TCG-Capabilities.pdf`
 
 ## Preview locally
 
