@@ -112,5 +112,7 @@ main :is(h1,h2,h3),.model-title strong,.model-title p{transition:color .18s var(
  .hero{display:flex;flex-direction:column;box-shadow:none}
  .hero-media{flex:1 1 auto;aspect-ratio:auto;min-height:56vw}
  .hero-media video{object-fit:cover;object-position:50% 50%}
- body.reduce-motion .chapter{position:relative;top:auto}
+ /* Sections with image backgrounds set position:relative by ID; restate sticky at ID strength (sticky still anchors their ::before layers). */
+ #model,#worlds,#pr4,#audience,#social{position:sticky}
+ body.reduce-motion .chapter,body.reduce-motion #model,body.reduce-motion #worlds,body.reduce-motion #pr4,body.reduce-motion #audience,body.reduce-motion #social{position:relative;top:auto}
 }
