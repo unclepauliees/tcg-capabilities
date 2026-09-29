@@ -1,4 +1,4 @@
-@font-face{font-family:ArchivoBlack;src:url('fonts/archivo-black.ttf') format('truetype');font-weight:900;font-display:swap}
+@font-face{font-family:ArchivoBlack;src:url('fonts/archivo-black.woff2') format('woff2');font-weight:900;font-display:swap}
 @font-face{font-family:Archivo;src:url('fonts/archivo-variable.woff2') format('woff2');font-weight:100 900;font-display:swap}
 @font-face{font-family:Inter;src:url('fonts/inter-400.woff2') format('woff2');font-weight:400;font-display:swap}
 @font-face{font-family:Inter;src:url('fonts/inter-500.woff2') format('woff2');font-weight:500;font-display:swap}
@@ -28,7 +28,7 @@
 }
 /* Section 03: user-supplied office image, edge-to-edge behind the reading layout. */
 #model{position:relative;isolation:isolate;--muted:var(--off-white);--line:rgba(236,234,227,.35);background:var(--black)}
-#model::before{content:"";position:absolute;inset:0;z-index:-2;background:url('assets/concrete-office.png') center center/cover no-repeat}
+#model::before{content:"";position:absolute;inset:0;z-index:-2;background:url('assets/web/concrete-office.webp') center center/cover no-repeat}
 #model::after{content:"";position:absolute;inset:0;z-index:-1;background:rgba(15,15,13,.70);pointer-events:none}
 @media(max-width:760px){#model::before{background-position:43% center}}
 @media print{#model{-webkit-print-color-adjust:exact;print-color-adjust:exact;color:var(--off-white);--muted:var(--off-white);--accent:var(--brass)}}
@@ -37,7 +37,7 @@
 
 /* Section 04: full-bleed user-supplied culture image replaces gallery slots. */
 #worlds{position:relative;isolation:isolate;--muted:var(--off-white);--line:rgba(236,234,227,.35);background:var(--black)}
-#worlds::before{content:"";position:absolute;inset:0;z-index:-2;background:url('assets/gold-grillz.png') center center/cover no-repeat}
+#worlds::before{content:"";position:absolute;inset:0;z-index:-2;background:url('assets/web/gold-grillz.webp') center center/cover no-repeat}
 #worlds::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(15,15,13,.82),rgba(15,15,13,.70) 60%,rgba(15,15,13,.40));pointer-events:none}
 #worlds .worlds{display:block}
 #worlds .sector-list{display:grid;grid-template-columns:1fr 1fr;max-width:640px;gap:0 40px}
@@ -55,9 +55,9 @@
 
 /* Section 06: supplied True Religion event photography. */
 #pr4{position:relative;isolation:isolate;--bg:var(--black);--fg:var(--off-white);--muted:var(--off-white);--line:rgba(236,234,227,.4);--accent:var(--brass);background:var(--black);color:var(--off-white)}
-#pr4::before{content:"";position:absolute;inset:0;z-index:-2;background:url('assets/tr-iconography.png') center center/cover no-repeat}
+#pr4::before{content:"";position:absolute;inset:0;z-index:-2;background:url('assets/web/tr-iconography.webp') center center/cover no-repeat}
 #pr4::after{content:"";position:absolute;inset:0;z-index:-1;background:rgba(15,15,13,.72);pointer-events:none}
-@media(max-width:760px){#pr4::before{background-position:51% center}}
+@media(max-width:760px){#pr4::before{background-image:url('assets/web/tr-iconography-mobile.webp');background-position:50% center}}
 @media print{#pr4{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
 
 /* Section 07: supplied audience film. */
@@ -83,7 +83,7 @@
 
 /* Section 10: full-bleed crowd background. */
 #social{position:relative;isolation:isolate;--muted:var(--off-white);--line:rgba(236,234,227,.4);background:var(--true-black);color:var(--off-white)}
-#social::before{content:"";position:absolute;inset:0;z-index:-2;background:url('assets/pizza-place-crowd.png') center center/cover no-repeat}
+#social::before{content:"";position:absolute;inset:0;z-index:-2;background:url('assets/web/pizza-place-crowd.webp') center center/cover no-repeat}
 #social::after{content:"";position:absolute;inset:0;z-index:-1;background:rgba(15,15,13,.74);pointer-events:none}
 @media(max-width:760px){#social::before{background-position:50% center}}
 @media print{#social{-webkit-print-color-adjust:exact;print-color-adjust:exact;--accent:var(--brass)}}
@@ -99,3 +99,8 @@ main :is(h1,h2,h3),.model-title strong,.model-title p{transition:color .18s var(
 }
 .hero-copy h1>span{color:var(--off-white)}
 @media print{.hero-copy h1>span{color:inherit}}
+
+/* Mobile: full-size tap target on the wordmark; body copy at 15px. */
+@media(max-width:760px){.wordmark{display:flex;align-items:center;min-height:44px}.row p,.three-cols p{font-size:15px}}
+/* Landscape phones: reclaim height. Compact header, no chapter rail, pinned scenes fit the viewport. */
+@media(orientation:landscape) and (max-height:520px){:root{--header:56px;--sp-40:72px}.site-header{padding:0 24px}.wordmark span,.edition{display:none}.chapter-rail{display:none}.hero-media{height:58svh;min-height:0}.hero-copy{padding-top:24px}.sticky-copy{position:relative;top:auto}.parallax-scene{height:130svh;min-height:0}.scene-pin{height:calc(100svh - var(--header));min-height:0}.scene-copy h2{font-size:clamp(34px,11svh,56px)}.scene-copy .eyebrow{margin-bottom:16px}}

@@ -53,7 +53,7 @@
   }
   ['play','pause','ended'].forEach(name => video.addEventListener(name,showVideoState));
   video.addEventListener('error', () => { videoButton.hidden = true; });
-  video.querySelector('source').addEventListener('error', () => { videoButton.hidden = true; });
+  video.querySelector('source:last-of-type').addEventListener('error', () => { videoButton.hidden = true; });
   videoButton.addEventListener('click', () => {
     if (video.paused || video.ended) { userPaused = false; if(video.ended) video.currentTime = 0; video.play().catch(showVideoState); }
     else { userPaused = true; video.pause(); }
@@ -80,7 +80,7 @@
   });
   function landscapeError() { landscapeButton.hidden = true; }
   landscapeVideo.addEventListener('error', landscapeError);
-  landscapeVideo.querySelector('source').addEventListener('error', landscapeError);
+  landscapeVideo.querySelector('source:last-of-type').addEventListener('error', landscapeError);
   new IntersectionObserver(entries => {
     landscapeVisible = entries[0].isIntersecting;
     syncLandscape();
@@ -106,7 +106,7 @@
   });
   function audienceError() { audienceButton.hidden = true; }
   audienceVideo.addEventListener('error', audienceError);
-  audienceVideo.querySelector('source').addEventListener('error', audienceError);
+  audienceVideo.querySelector('source:last-of-type').addEventListener('error', audienceError);
   new IntersectionObserver(entries => {
     audienceVisible = entries[0].isIntersecting;
     syncAudience();
