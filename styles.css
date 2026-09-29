@@ -116,3 +116,8 @@ main :is(h1,h2,h3),.model-title strong,.model-title p{transition:color .18s var(
  #model,#worlds,#pr4,#audience,#social{position:sticky}
  body.reduce-motion .chapter,body.reduce-motion #model,body.reduce-motion #worlds,body.reduce-motion #pr4,body.reduce-motion #audience,body.reduce-motion #social{position:relative;top:auto}
 }
+
+/* Hero strapline on one line */
+.hero-bottom p{max-width:none;white-space:nowrap}
+@media(max-width:380px){.hero-bottom p{font-size:12px;letter-spacing:-.01em}}
+@media(max-width:340px){.hero-bottom p{white-space:normal}}
